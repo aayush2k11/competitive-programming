@@ -13,8 +13,5 @@ while i != 0:
     if c[(i+k)%n] == 1:
         E -= 2
     i = (i+k)%n
-print Ebin/python
-
-import sys
-
+print E
 
