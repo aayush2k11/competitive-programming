@@ -125,6 +125,10 @@ int main(){
   root = insert(root, 15);
   root = insert(root, 25);
   root = insert(root, 35);
+  root = insert(root, 28);
+  root = insert(root, 16);
+  root = insert(root, 7);
+  root = insert(root, 83);
   cout << "Inorder traversal: " << endl;
   inorder_traversal(root);
   cout << endl << "===============================" << endl;
